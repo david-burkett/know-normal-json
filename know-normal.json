@@ -40,7 +40,7 @@
         "description": "The generic host process for Windows Tasks. Upon initialization, taskhostw.exe runs a continuous loop listening for trigger events. Example trigger events that can initiate a task include a defined schedule, user logon, system startup, idle CPU time, a Windows log event, workstation lock, or workstation unlock. There are more than 160 tasks preconfigured on a default installation of Windows 10 Enterprise (though many are disabled). All executable files (DLLs & EXEs) used by the default Windows 10 scheduled tasks are signed by Microsoft."
         },
     "winlogon.exe": {
-        "image-path": "%SystemRoot%\System32\winlogon.exe",
+        "image-path": "%SystemRoot%\\System32\\winlogon.exe",
         "parent-process": "Created by an instance of smss.exe that exits, so analysis tools usually do not provide the parent process name.",
         "num-instances": "One or more",
         "user-account": "Local System",
